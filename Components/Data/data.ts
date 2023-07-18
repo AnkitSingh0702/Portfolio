@@ -12,7 +12,7 @@ export const projects: data[] = [
     {
       name: "Svaasthy",
         Demo: "",
-       image:'./p2.gif',
+       image:'./s.png',
       github_url: "https://github.com/AnkitSingh0702/Svaasthy",
       description:
       "Svaasthy enables us the emergency medical situations by providing the best and the fastest way to reach your nearest hospitals",
@@ -20,7 +20,7 @@ export const projects: data[] = [
     },
     { 
       name: "Twitter Clone",
-      image:'./p1.gif',
+      image:'./t.png',
       description:
         "Twitter clone is a clone of the Twitter web app build with Next.js,Firebase and NextAuth. where you can log in,comment",
       Demo: "https://twitter-clone-kappa-five.vercel.app/",
@@ -29,7 +29,7 @@ export const projects: data[] = [
     },
     {
       name: "Ment-Ally",
-      image:'./p3.gif',
+      image:'./m.png',
       Demo: "https://ment-ally-3fc6a.web.app/",
       github_url: "https://github.com/AnkitSingh0702/Ment-Ally",
      
@@ -49,7 +49,7 @@ export const projects: data[] = [
   
     {
       name: "GooglePlay UI Clone",
-      image:'./p4.gif',
+      image:'./g.png',
       Demo: "https://reactnativeexample.com/google-play-games-ui-made-with-react-native/",
       github_url: "https://github.com/AnkitSingh0702/Google_Play_Games_Ui_Clone",
      
