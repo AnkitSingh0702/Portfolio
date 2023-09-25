@@ -1,6 +1,7 @@
 import React from 'react'
 import {IoLogoJavascript} from 'react-icons/io'
-import {SiTypescript,SiJava,SiExpress,SiReact,SiRedux,SiTailwindcss} from 'react-icons/si'
+import {SiTypescript,SiExpress,SiReact,SiRedux,SiTailwindcss} from 'react-icons/si'
+import {FaJava} from 'react-icons/fa'
 import {TbBrandNextjs,TbBrandReactNative} from 'react-icons/tb'
 import {FaNodeJs} from 'react-icons/fa'
 function Techstack() {
@@ -28,7 +29,7 @@ function Techstack() {
 
                <div className="  flex  bg-white/5 text=[#b6b6b9] items-center px-2.5 py-2 rounded-md text-base hover:bg-white/10 hover:shadow-surface-elevation-medium">
                
-               <SiJava size ={24}/>
+               <FaJava size ={24}/>
                <p className='ml-4'>Java</p> 
                </div>
 

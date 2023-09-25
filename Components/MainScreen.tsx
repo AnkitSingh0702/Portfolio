@@ -28,7 +28,7 @@ function MainScreen() {
 
       
     </div>
-
+   
 {/* ABOUT PART */}
       <div className = "mt-5">
       <div className=' font-semibold tracking-wide  px-1 py-2 text-xl md:text-2xl text-slate-100 select-none '>
@@ -38,7 +38,7 @@ function MainScreen() {
      <div className='mt-7 block overflow-hidden rounded-2xl bg-white/5 p-7 shadow-surface-elevation-low transition duration-300 hover:bg-white/10 hover:shadow-surface-elevation-medium focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500/70'>
      <h1 className=' font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#BDFFF3] to-[#4AC29A]'>Hi, I'm Ankit Singh!</h1>
      <p className='mt-3 text-xl text-[#b6b6b9] sm:mt-9 tracking-wide '>
-     I am a Frontend Developer ,currently pursuing B.Tech Degree(3rd Year) in Computer Science Engineering and looking for Internship Opportunities.
+     I am a Frontend Developer ,currently pursuing B.Tech Degree(4th Year) in Computer Science Engineering and looking for Internship Opportunities.
      </p>
      </div>
       </div>
