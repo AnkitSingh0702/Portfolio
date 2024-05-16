@@ -48,14 +48,14 @@ export const projects: data[] = [
     },
   
     {
-      name: "GooglePlay UI Clone",
-      image:'./g.png',
-      Demo: "https://reactnativeexample.com/google-play-games-ui-made-with-react-native/",
-      github_url: "https://github.com/AnkitSingh0702/Google_Play_Games_Ui_Clone",
+      name: "IoT App",
+      image:'./iot.png',
+      Demo: "",
+      github_url: "https://github.com/AnkitSingh0702/IOT_App",
      
       description:
-        "GooglPlay ui clone is a clone of the googleplaygames build with React Native , expo and Typescript",
-      key_techs: ["React Native", "Expo", "Typescript"],
+        "IoT-basedHome automation Flutter application facilitating seamless interaction and control of connected devices",
+      key_techs: ["Flutter", "Flask", "Dart", "Python","MicroPython","Raspberry Pi"]
     },
     
   ];

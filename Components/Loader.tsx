@@ -4,7 +4,9 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 
-import HashLoader from "react-spinners/HashLoader";
+// import HashLoader from "react-spinners/HashLoader";
+import PacmanLoader from "react-spinners/PacmanLoader";
+
 const Loader = () => {
   return (
     <AnimatePresence>
@@ -20,10 +22,10 @@ const Loader = () => {
          </div>
 
 
-        <div className="mt-5">
-        <HashLoader 
+        <div className="mt-5 mr-2">
+        <PacmanLoader 
              color="#36d7b7"  
-             size={49}
+             size={30}
         />
        </div>
       </motion.div>

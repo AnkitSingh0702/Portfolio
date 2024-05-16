@@ -38,7 +38,7 @@ function MainScreen() {
      <div className='mt-7 block overflow-hidden rounded-2xl bg-white/5 p-7 shadow-surface-elevation-low transition duration-300 hover:bg-white/10 hover:shadow-surface-elevation-medium focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500/70'>
      <h1 className=' font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#BDFFF3] to-[#4AC29A]'>Hi, I'm Ankit Singh!</h1>
      <p className='mt-3 text-xl text-[#b6b6b9] sm:mt-9 tracking-wide '>
-     I am a Frontend Developer ,currently pursuing B.Tech Degree(4th Year) in Computer Science Engineering and looking for Internship Opportunities.
+     I am a Frontend Developer ,currently pursuing B.Tech Degree(4th Year) in Computer Science Engineering and I'm actively searching for full-time job opportunities to leverage my expertise and enthusiasm in a dynamic work environment.
      </p>
      </div>
       </div>
@@ -59,7 +59,7 @@ function MainScreen() {
     <div className=" flex justify-between flex-wrap flex-grow basis-1/2 relative my-3">
         {projects.map((project) => (
           <>
-          <div className="  top-10 col-span-12 p-2 rounded-md sm:col-span-6 lg:col-span-4 ">
+          <div className="  top-10 col-span-12 p-1 rounded-md sm:col-span-6 lg:col-span-4 ">
               <Project project={project} key={project.name} />
             </div></>
         ))}
