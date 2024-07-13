@@ -15,17 +15,17 @@ export const projects: data[] = [
        image:'./s.png',
       github_url: "https://github.com/AnkitSingh0702/Svaasthy",
       description:
-      "Svaasthy enables us the emergency medical situations by providing the best and the fastest way to reach your nearest hospitals",
+      "Svaasthy provides the quickest and most efficient way to reach nearby hospitals, ensuring you get immediate assistance in emergency medical situations",
       key_techs: ["ReactNative", "firebase", "Expo" , "Typescript"],
     },
     { 
-      name: "Twitter Clone",
-      image:'./t.png',
+      name: "Misinfometer",
+      image:'./mis.png',
       description:
-        "Twitter clone is a clone of the Twitter web app build with Next.js,Firebase and NextAuth. where you can log in,comment",
-      Demo: "https://twitter-clone-kappa-five.vercel.app/",
-      github_url: "https://github.com/AnkitSingh0702/Twitter-Clone",
-      key_techs: ["Next Js", "Firebase","Next Auth", "Tailwind Css"],
+        "Misimfometer uses advanced machine learning to verify news authenticity, helping users combat misinformation effectively and efficiently.",
+      Demo: "https://misinfometer-senior-design-project-frontend.vercel.app/",
+      github_url: "https://github.com/AnkitSingh0702/Misinfometer-SeniorDesignProject-Frontend",
+      key_techs: ["Next Js", "Flask","Tailwind Css", "Python" , "scikit-learn"],
     },
     {
       name: "Ment-Ally",
@@ -54,7 +54,7 @@ export const projects: data[] = [
       github_url: "https://github.com/AnkitSingh0702/IOT_App",
      
       description:
-        "IoT-basedHome automation Flutter application facilitating seamless interaction and control of connected devices",
+        "IoT-based Flutter application facilitating interaction and control of connected devices",
       key_techs: ["Flutter", "Flask", "Dart", "Python","MicroPython","Raspberry Pi"]
     },
     

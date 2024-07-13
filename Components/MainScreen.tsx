@@ -56,14 +56,23 @@ function MainScreen() {
             <div className=" bg-gradient-to-r from-white  to-teal-700  w-24 h-2 rounded-xl"></div>
           </div>
   
-    <div className=" flex justify-between flex-wrap flex-grow basis-1/2 relative my-3">
+    {/* <div className=" flex justify-between flex-wrap flex-grow basis-1/2 relative ">
         {projects.map((project) => (
           <>
-          <div className="  top-10 col-span-12 p-1 rounded-md sm:col-span-6 lg:col-span-4 ">
+          <div className="  top-10 col-span-12  rounded-md sm:col-span-6 lg:col-span-4 ">
               <Project project={project} key={project.name} />
             </div></>
         ))}
-      </div>
+      </div> */}
+
+<div className="flex justify-between flex-wrap flex-grow relative ">
+  {projects.map((project) => (
+    <div key={project.name} className="flex flex-row flex-grow basis-1/2 p-4 ">
+      <Project project={project} />
+    </div>
+  ))}
+</div>
+
 
 
 
