@@ -9,7 +9,7 @@ export const social_links: social[] =[
         name: "Github",
     },
     {
-        link: "https://www.linkedin.com/in/ankit-singh-6a1428201/",
+        link: "https://www.linkedin.com/in/ankitsingh0702/",
         name: "Linkdln",
     },
     {
