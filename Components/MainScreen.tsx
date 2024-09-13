@@ -38,7 +38,7 @@ function MainScreen() {
      <div className='mt-3 block overflow-hidden rounded-lg bg-white/5 p-4 shadow-surface-elevation-low transition duration-300 hover:bg-white/10 hover:shadow-surface-elevation-medium focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500/70'>
      <h1 className=' font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#BDFFF3] to-[#4AC29A]'>Hi, I'm Ankit Singh!</h1>
      <p className='mt-3 text-xl text-[#b6b6b9] sm: tracking-wide '>
-     I am a Frontend Developer , Recently completed my B.Tech Degree in Computer Science Engineering and I'm actively searching for full-time job opportunities to leverage my expertise and enthusiasm in a dynamic work environment.
+     I am a Frontend Developer , Recently completed my B.Tech Degree in Computer Science & Engineering and I'm actively searching for full-time job opportunities to leverage my expertise and enthusiasm in a dynamic work environment.
      </p>
      </div>
       </div>
