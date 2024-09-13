@@ -9,12 +9,16 @@ export const social_links: social[] =[
         name: "Github",
     },
     {
-        link: "https://www.linkedin.com/in/ankit-singh-6a1428201/",
+        link: "https://www.linkedin.com/in/ankitsingh0702/",
         name: "Linkdln",
     },
     {
         link: "https://twitter.com/ankit20020",
         name: "Twitter",
     },
+    {
+        link : "mailto:as.ankitsingh0702@gmail.com",
+        name: "Mail"
+    }
 ]
 

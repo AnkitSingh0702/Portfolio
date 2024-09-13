@@ -7,12 +7,12 @@ import {FaNodeJs} from 'react-icons/fa'
 function Techstack() {
   return (
     <div className="mt-7 ">
-            <div className=' font-semibold tracking-wide  px-1 py-2 text-xl md:text-2xl text-slate-100 select-none'>
+            <div className=' font-semibold tracking-wide  px-1 py-2 text-2xl md:text-2xl text-slate-100 select-none'>
              TechStack
             </div>
-            <div className=" bg-gradient-to-r from-white  to-teal-700  w-24 h-2 rounded-xl"></div>
+            {/* <div className=" bg-gradient-to-r from-white  to-teal-700  w-24 h-2 rounded-xl"></div> */}
 
-            <div className='  mt-7 gap-x-7 gap-y-3 flex   flex-row flex-wrap pt-1 pb-3 ml-2'>
+            <div className='  mt-3 gap-x-7 gap-y-3 flex   flex-row flex-wrap pt-1 pb-3 ml-2'>
 
 
               

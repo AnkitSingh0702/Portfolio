@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import {SiGithub,SiLinkedin} from "react-icons/si";
 import {RiTwitterXLine} from "react-icons/ri";
-
+import { SiGmail } from "react-icons/si";
 type props = {
   link: string;
   name: string;
@@ -16,6 +16,7 @@ const Buttons: React.FC<props> = ({ link, name }) => {
             { name === 'Github' && <SiGithub size={25}  title = " Github"/> }
             { name === 'Twitter' && <RiTwitterXLine size={25} title = "X"/> }
             { name === 'Linkdln' && <SiLinkedin size={25} title = " Linkdln"/> }
+            { name === 'Mail' && <SiGmail size={25} title = "Gmail"/> }
           </div>
         </div>
     </Link>

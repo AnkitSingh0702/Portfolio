@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     return (
       <div className={``}>
         <Head>
-          <title>Ankit Portfolio</title>
+          <title>Ankit</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Loader />
@@ -26,8 +26,8 @@ const Home: NextPage = () => {
     return (
       <div className="min-h-screen bg-neutral-900 text-slate-200 ">
         <Head>
-          <title>Ankit Portfolio</title>
-          <link rel="icon" href="/favicon.ico" />
+          <title>Ankit</title>
+          <link rel="icon" href="/pic2.png" />
 
         </Head>
         <MainScreen />

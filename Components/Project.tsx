@@ -21,14 +21,14 @@ const Techstack:FunctionComponent<{
     
     <>
     
-    <div className="mt-7 ">
+    <div className="mt-4 ">
  
 
  
-      <div className=" w-[20rem]   min-h-full mt-4 rounded-2xl bg-white/5 shadow-surface-elevation-low transition duration-300 hover:bg-white/10 hover:shadow-surface-elevation-medium focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500/70">
+      <div className=" w-[20rem]   min-h-full mt-2 rounded-lg bg-white/5 shadow-surface-elevation-low transition duration-300 hover:bg-white/10 hover:shadow-surface-elevation-medium focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500/70">
 
 
-        <div className=" p-7 flex-row">
+        <div className=" p-[0.75rem]  flex-row">
            <img src = {image} alt = "IMAGE" className='w-full rounded-md h-40 object-cover object-center mb-3'/>
           
           <h5 className="mb-2 text-transparent font-bold text-2xl bg-clip-text bg-gradient-to-r from-[#BDFFF3] to-[#4AC29A]">{name}</h5>
