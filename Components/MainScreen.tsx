@@ -18,7 +18,7 @@ function MainScreen() {
 
      <div className = " mt-10 flex ">
 {/* INTRO PART */}
-      <div className="rounded-full bg-gradient-to-tl from-teal-300/60 to-green-200/60 shadow-lg  ring-[5px] ring-emerald-200/10">
+      <div className="rounded-full bg-gradient-to-tl from-teal-300/60 to-green-200/60 shadow-lg ring-[5px] ring-emerald-200/10 p-[3px]">
       <Image src = "/pic.png" alt = "Photo" width = "58" height = "58" className = "rounded-full object-cover" />
       </div>
       <div className=' text-white font-bold ml-7 '>
