@@ -3,13 +3,14 @@ import Head from "next/head";
 import Loader from "../Components/Loader";
 import MainScreen from "../Components/MainScreen";
 import type { NextPage } from "next";
+import { Fade } from "react-awesome-reveal";
 
 const Home: NextPage = () => {
   const [showAnimation, setShowAnimation] = React.useState(true);
   React.useEffect(() => {
     setTimeout(() => {
       setShowAnimation(false);
-    }, 2500);
+    }, 2700);
   }, []);
 
   if (showAnimation) {
@@ -24,14 +25,22 @@ const Home: NextPage = () => {
     );
   } else {
     return (
-      <div className="min-h-screen bg-neutral-900 text-slate-200 ">
+      
+
+      
+      <div className="min-h-screen  text-slate-200 ">
         <Head>
           <title>Ankit</title>
-          <link rel="icon" href="/pic2.png" />
+          <link rel="icon" href="/pic1.jpg" className="rounded-full" />
 
         </Head>
+       
+
         <MainScreen />
-      </div>
+       
+        
+        
+        </div>
     );
   }
 };

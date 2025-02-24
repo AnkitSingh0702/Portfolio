@@ -12,7 +12,7 @@ export const projects: data[] = [
     {
       name: "Svaasthy",
         Demo: "",
-       image:'./s.png',
+       image:'/s.png',
       github_url: "https://github.com/AnkitSingh0702/Svaasthy",
       description:
       "Svaasthy provides the quickest and most efficient way to reach nearby hospitals, ensuring you get immediate assistance in emergency medical situations",
@@ -20,7 +20,7 @@ export const projects: data[] = [
     },
     { 
       name: "Misinfometer",
-      image:'./mis.png',
+      image:'/mis.png',
       description:
         "Misimfometer uses advanced machine learning to verify news authenticity, helping users combat misinformation effectively and efficiently.",
       Demo: "https://misinfometer-senior-design-project-frontend.vercel.app/",
@@ -29,7 +29,7 @@ export const projects: data[] = [
     },
     {
       name: "Ment-Ally",
-      image:'./m.png',
+      image:'/m.png',
       Demo: "https://ment-ally-3fc6a.web.app/",
       github_url: "https://github.com/AnkitSingh0702/Ment-Ally",
      
@@ -49,7 +49,7 @@ export const projects: data[] = [
   
     {
       name: "IoT App",
-      image:'./iot.png',
+      image:'/iot.png',
       Demo: "",
       github_url: "https://github.com/AnkitSingh0702/IOT_App",
      
