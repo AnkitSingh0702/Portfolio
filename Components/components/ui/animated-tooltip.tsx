@@ -42,7 +42,7 @@ export const AnimatedTooltip = ({
     <div className="flex flex-wrap gap-2">
       {items.map((item) => (
         <div
-          className="relative group"
+          className="relative group" 
           key={item.id}
           onMouseEnter={() => setHoveredIndex(item.id)}
           onMouseLeave={() => setHoveredIndex(null)}

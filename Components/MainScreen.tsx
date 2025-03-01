@@ -13,6 +13,7 @@ import InteractiveHoverButton from './components/ui/interactive-hover-button';
 import { TypewriterEffect } from './components/ui/typewriter-effect';
 import { annotate, annotationGroup } from "rough-notation";
 import { BackgroundBeams } from './ui/background-beams';
+import { Spotlight } from './ui/spotlight-new';
 function MainScreen() {
   const [projects, setProjects] = useState(projectsData);
   const [work ,SetWork] = useState(workdata);
@@ -57,7 +58,8 @@ const jobRef = useRef(null);
   return (
     <>
       <div className="fixed inset-0 -z-10">
-        <BackgroundBeams />
+        {/* <BackgroundBeams /> */}
+        <Spotlight />
       </div>
      <div className="min-h-screen ">
     <div className="max-w-screen-md mx-auto px-7 py-7 ">
