@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       <div className="min-h-screen  text-slate-200 ">
         <Head>
           <title>Ankit</title>
-          <link rel="icon" href="/pic1.jpg" className="rounded-full" />
+          <link rel="icon" href="/pic2.png" className="rounded-full" />
 
         </Head>
        

@@ -72,7 +72,7 @@ const jobRef = useRef(null);
         <div className='flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-7 text-center sm:text-left'>
           <div className="rounded-full bg-gradient-to-tl from-teal-300/60 to-green-200/60 shadow-lg ring-[5px] ring-emerald-200/10 p-[3px] flex-shrink-0">
             <Image 
-              src="/pic1.jpg" 
+              src="/pic2.png" 
               alt="Photo" 
               width={58} 
               height={58} 
