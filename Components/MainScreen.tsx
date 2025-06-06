@@ -123,7 +123,7 @@ const jobRef = useRef(null);
 
 {/* TECHSTACK */}
 <Techstack/>
-<div className="mt-10 overflow-x-auto max-w-full flex justify-center custom-scrollbar">
+<div className="mt-6 overflow-x-auto">
   <div className="min-w-[350px] sm:min-w-[unset]">
     <GitHubCalendar
       username="AnkitSingh0702"
