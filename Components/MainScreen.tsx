@@ -123,8 +123,16 @@ const jobRef = useRef(null);
 
 {/* TECHSTACK */}
 <Techstack/>
-<div className="mt-6 overflow-x-auto">
+{/* <div className="mt-6 overflow-x-auto">
   <div className="min-w-[350px] sm:min-w-[unset]">
+    <GitHubCalendar
+      username="AnkitSingh0702"
+      colorScheme="dark"
+    />
+  </div>
+</div> */}
+<div className="mt-6">
+  <div className="w-full max-w-full overflow-hidden">
     <GitHubCalendar
       username="AnkitSingh0702"
       colorScheme="dark"
