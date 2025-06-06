@@ -14,6 +14,7 @@ import { TypewriterEffect } from './components/ui/typewriter-effect';
 import { annotate, annotationGroup } from "rough-notation";
 import { BackgroundBeams } from './ui/background-beams';
 import { Spotlight } from './ui/spotlight-new';
+import GitHubCalendar from 'react-github-calendar';
 function MainScreen() {
   const [projects, setProjects] = useState(projectsData);
   const [work ,SetWork] = useState(workdata);
@@ -122,6 +123,16 @@ const jobRef = useRef(null);
 
 {/* TECHSTACK */}
 <Techstack/>
+<div className="mt-10 overflow-x-auto max-w-full flex justify-center custom-scrollbar">
+  <div className="min-w-[350px] sm:min-w-[unset]">
+    <GitHubCalendar
+      username="AnkitSingh0702"
+      colorScheme="dark"
+    />
+  </div>
+</div>
+
+
 
 
 {/* PROJECT PART */}
