@@ -106,6 +106,7 @@ import {
 } from "react-icons/si"
 import type { IconType } from "react-icons"
 import { GlowingEffect } from "./ui/glowing-effect"
+import { LinkPreview } from "./ui/link-preview"
 
 // Tech stack icons mapping
 const techIcons: { [key: string]: IconType } = {
@@ -169,24 +170,28 @@ const Project: FunctionComponent<{
 
             {/* Links */}
             <div className="flex items-center gap-4">
-              <Link
-                href={github_url}
-                target="_blank"
+
+              <LinkPreview
+                url={github_url}
+                // target="_blank"
                 className="inline-flex items-center gap-2 text-gray-400 hover:text-gray-200 transition-colors mt-5"
               >
                 <AiFillGithub className="w-5 h-5 " />
                 <span className="text-sm">Github</span>
-              </Link>
+              </LinkPreview>
               {Demo && (
-                <Link
-                  href={Demo}
-                  target="_blank"
+                <LinkPreview
+                  url={Demo}
+                  // target="_blank"
                   className="inline-flex items-center gap-2 text-gray-400 hover:text-gray-200 transition-colors mt-5"
                 >
                   <AiFillProject className="w-5 h-5" />
                   <span className="text-sm">Demo</span>
-                </Link>
+                </LinkPreview>
+
+                
               )}
+
             </div>
           </div>
         </div>
